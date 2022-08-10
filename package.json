@@ -1,6 +1,6 @@
 {
   "name": "@map3xyz/assets-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI for maintaining the assets repo.",
   "author": "pellicceama",
   "keywords": [
