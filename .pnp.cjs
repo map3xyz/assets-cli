@@ -34,6 +34,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@map3xyz/assets-helper", "npm:1.0.135"],\
+            ["@map3xyz/telemetry", "npm:0.0.8"],\
             ["@types/node", "npm:18.0.5"],\
             ["@uniswap/token-lists", "npm:1.0.0-beta.30"],\
             ["ava", "virtual:2794014eb7284af2c936e5ecb2a7cd1d734ec2dc70788eaacdaff6bc47cb02fd9de8d09e3e044d5e46e7afe2a824e251fb0daca98adc7020df92b6c71617cede#npm:4.3.1"],\
@@ -201,12 +202,32 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@lukeed/csprng", [\
+        ["npm:1.0.1", {\
+          "packageLocation": "./.yarn/cache/@lukeed-csprng-npm-1.0.1-de3ac370f2-fd84d68327.zip/node_modules/@lukeed/csprng/",\
+          "packageDependencies": [\
+            ["@lukeed/csprng", "npm:1.0.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@lukeed/uuid", [\
+        ["npm:2.0.0", {\
+          "packageLocation": "./.yarn/cache/@lukeed-uuid-npm-2.0.0-df2e18af82-7d55c0a9f2.zip/node_modules/@lukeed/uuid/",\
+          "packageDependencies": [\
+            ["@lukeed/uuid", "npm:2.0.0"],\
+            ["@lukeed/csprng", "npm:1.0.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@map3xyz/assets-cli", [\
         ["workspace:.", {\
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@map3xyz/assets-cli", "workspace:."],\
             ["@map3xyz/assets-helper", "npm:1.0.135"],\
+            ["@map3xyz/telemetry", "npm:0.0.8"],\
             ["@types/node", "npm:18.0.5"],\
             ["@uniswap/token-lists", "npm:1.0.0-beta.30"],\
             ["ava", "virtual:2794014eb7284af2c936e5ecb2a7cd1d734ec2dc70788eaacdaff6bc47cb02fd9de8d09e3e044d5e46e7afe2a824e251fb0daca98adc7020df92b6c71617cede#npm:4.3.1"],\
@@ -234,6 +255,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jsonschema", "npm:1.4.1"],\
             ["shelljs", "npm:0.8.5"],\
             ["uuid", "npm:8.3.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@map3xyz/telemetry", [\
+        ["npm:0.0.8", {\
+          "packageLocation": "./.yarn/unplugged/@map3xyz-telemetry-npm-0.0.8-1c972b22e8/node_modules/@map3xyz/telemetry/",\
+          "packageDependencies": [\
+            ["@map3xyz/telemetry", "npm:0.0.8"],\
+            ["@lukeed/uuid", "npm:2.0.0"],\
+            ["axios", "npm:0.27.2"]\
           ],\
           "linkType": "HARD"\
         }]\

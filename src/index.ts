@@ -1,9 +1,10 @@
 #!/usr/bin/env node
-
+import axios from 'axios';
 import { Command } from 'commander'
 import { pushAssetsRepoModuleChangesAndCreatePullRequests, regenerateTokenlists } from '@map3xyz/assets-helper';
 import { ingestTokenList } from '@map3xyz/assets-helper';
 import { validate } from '@map3xyz/assets-helper'
+import { track } from '@map3xyz/telemetry'
 var packageJson = require('./../package.json');
 
 const program = new Command();
@@ -103,5 +104,23 @@ program.command('ingest')
       process.exit(1);
     });
 });
+
+program.command('compile-stats')
+  .description('Compile the stats for the assets repo and log them via our telemetry API')
+  .action(async () => {
+    try {
+      const release = (await axios.get('https://api.github.com/repos/map3xyz/assets/releases/latest')).data.assets[0];
+      const repo = (await axios.get('https://api.github.com/repos/map3xyz/assets')).data;
+      track('github', 'oss', 'stargazers_count', undefined, repo.stargazers_count);
+      track('github', 'oss', 'forks_count', undefined, repo.forks_count);
+      track('github', 'oss', 'watchers_count', undefined, repo.watchers_count);
+    } catch (err) {
+      console.error('Error compiling stats', err);
+      process.exit(1);
+    }
+    
+    console.log('☑️ Compiled stats for assets repo');
+    process.exit(0);
+  })
 
 program.parse(process.argv);
