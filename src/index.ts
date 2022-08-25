@@ -110,7 +110,10 @@ program.command('compile-stats')
   .action(async () => {
     try {
       const release = (await axios.get('https://api.github.com/repos/map3xyz/assets/releases/latest')).data.assets[0];
+      track('github', 'oss', 'db_download_count', undefined, release.download_count);
+      
       const repo = (await axios.get('https://api.github.com/repos/map3xyz/assets')).data;
+      
       track('github', 'oss', 'stargazers_count', undefined, repo.stargazers_count);
       track('github', 'oss', 'forks_count', undefined, repo.forks_count);
       track('github', 'oss', 'watchers_count', undefined, repo.watchers_count);
