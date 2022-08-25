@@ -33,7 +33,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["@map3xyz/assets-helper", "npm:1.0.114"],\
+            ["@map3xyz/assets-helper", "npm:1.0.135"],\
             ["@types/node", "npm:18.0.5"],\
             ["@uniswap/token-lists", "npm:1.0.0-beta.30"],\
             ["ava", "virtual:2794014eb7284af2c936e5ecb2a7cd1d734ec2dc70788eaacdaff6bc47cb02fd9de8d09e3e044d5e46e7afe2a824e251fb0daca98adc7020df92b6c71617cede#npm:4.3.1"],\
@@ -206,7 +206,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@map3xyz/assets-cli", "workspace:."],\
-            ["@map3xyz/assets-helper", "npm:1.0.114"],\
+            ["@map3xyz/assets-helper", "npm:1.0.135"],\
             ["@types/node", "npm:18.0.5"],\
             ["@uniswap/token-lists", "npm:1.0.0-beta.30"],\
             ["ava", "virtual:2794014eb7284af2c936e5ecb2a7cd1d734ec2dc70788eaacdaff6bc47cb02fd9de8d09e3e044d5e46e7afe2a824e251fb0daca98adc7020df92b6c71617cede#npm:4.3.1"],\
@@ -224,10 +224,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@map3xyz/assets-helper", [\
-        ["npm:1.0.114", {\
-          "packageLocation": "./.yarn/cache/@map3xyz-assets-helper-npm-1.0.114-3249c354ce-615493d676.zip/node_modules/@map3xyz/assets-helper/",\
+        ["npm:1.0.135", {\
+          "packageLocation": "./.yarn/cache/@map3xyz-assets-helper-npm-1.0.135-fc9c45ad40-65575fedc8.zip/node_modules/@map3xyz/assets-helper/",\
           "packageDependencies": [\
-            ["@map3xyz/assets-helper", "npm:1.0.114"],\
+            ["@map3xyz/assets-helper", "npm:1.0.135"],\
             ["@uniswap/token-lists", "npm:1.0.0-beta.30"],\
             ["axios", "npm:0.27.2"],\
             ["ethereum-checksum-address", "npm:0.0.8"],\
