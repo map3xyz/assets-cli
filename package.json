@@ -34,7 +34,7 @@
   },
   "dependencies": {
     "@map3xyz/assets-helper": "^1.0.135",
-    "@map3xyz/telemetry": "^0.0.9",
+    "@map3xyz/telemetry": "^0.0.10",
     "@uniswap/token-lists": "^1.0.0-beta.30",
     "axios": "^0.27.2",
     "commander": "^9.3.0",
