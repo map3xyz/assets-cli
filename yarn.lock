@@ -161,7 +161,7 @@ __metadata:
   resolution: "@map3xyz/assets-cli@workspace:."
   dependencies:
     "@map3xyz/assets-helper": ^1.0.135
-    "@map3xyz/telemetry": ^0.0.8
+    "@map3xyz/telemetry": ^0.0.9
     "@types/node": ^18.0.0
     "@uniswap/token-lists": ^1.0.0-beta.30
     ava: ^4.3.0
@@ -195,13 +195,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@map3xyz/telemetry@npm:^0.0.8":
-  version: 0.0.8
-  resolution: "@map3xyz/telemetry@npm:0.0.8"
+"@map3xyz/telemetry@npm:^0.0.9":
+  version: 0.0.9
+  resolution: "@map3xyz/telemetry@npm:0.0.9"
   dependencies:
     "@lukeed/uuid": ^2.0.0
     axios: ^0.27.2
-  checksum: 15560be32acff4f1c42c298211d0486b28fad0b321d757a443448f2334a5a08361a6c41162b5f51afe944f02a22e68d51d7b6576dc0d11ea61d55560434e734d
+  checksum: 515d2ef8508635a67cab7b20f8ba41f3c4e0a643716bd1ee9d9bb420f49301ce5e3bff372be25d9084fc431da87f1b51ea0cf14841d77071e958e85bf8e7bfe1
   languageName: node
   linkType: hard
 
