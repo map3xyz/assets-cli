@@ -34,7 +34,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@map3xyz/assets-helper", "npm:1.0.135"],\
-            ["@map3xyz/telemetry", "npm:0.0.8"],\
+            ["@map3xyz/telemetry", "npm:0.0.10"],\
             ["@types/node", "npm:18.0.5"],\
             ["@uniswap/token-lists", "npm:1.0.0-beta.30"],\
             ["ava", "virtual:2794014eb7284af2c936e5ecb2a7cd1d734ec2dc70788eaacdaff6bc47cb02fd9de8d09e3e044d5e46e7afe2a824e251fb0daca98adc7020df92b6c71617cede#npm:4.3.1"],\
@@ -227,7 +227,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@map3xyz/assets-cli", "workspace:."],\
             ["@map3xyz/assets-helper", "npm:1.0.135"],\
-            ["@map3xyz/telemetry", "npm:0.0.8"],\
+            ["@map3xyz/telemetry", "npm:0.0.10"],\
             ["@types/node", "npm:18.0.5"],\
             ["@uniswap/token-lists", "npm:1.0.0-beta.30"],\
             ["ava", "virtual:2794014eb7284af2c936e5ecb2a7cd1d734ec2dc70788eaacdaff6bc47cb02fd9de8d09e3e044d5e46e7afe2a824e251fb0daca98adc7020df92b6c71617cede#npm:4.3.1"],\
@@ -260,10 +260,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@map3xyz/telemetry", [\
-        ["npm:0.0.8", {\
-          "packageLocation": "./.yarn/unplugged/@map3xyz-telemetry-npm-0.0.8-1c972b22e8/node_modules/@map3xyz/telemetry/",\
+        ["npm:0.0.10", {\
+          "packageLocation": "./.yarn/unplugged/@map3xyz-telemetry-npm-0.0.10-da90f4820f/node_modules/@map3xyz/telemetry/",\
           "packageDependencies": [\
-            ["@map3xyz/telemetry", "npm:0.0.8"],\
+            ["@map3xyz/telemetry", "npm:0.0.10"],\
             ["@lukeed/uuid", "npm:2.0.0"],\
             ["axios", "npm:0.27.2"]\
           ],\
