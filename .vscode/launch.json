@@ -17,7 +17,7 @@
                 "${workspaceFolder}/dist/**/*.js"
             ],
             "runtimeArgs": ["-r", "./.pnp.cjs", "-r", "ts-node/register"],
-            "args": ["validate", "-r", "."],
+            "args": ["validate", "-r", "/Users/ap/ama_dev/map3/indexer/tmp/map3xyz-assets/networks/smartchain/assets/smartchain-tokenlist"],
             "cwd": "${workspaceFolder}",
             "env": {
                 "NODE_ENV": "development"
