@@ -562,7 +562,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@map3xyz/assets-cli@workspace:."
   dependencies:
-    "@map3xyz/assets-helper": ^1.0.144
+    "@map3xyz/assets-helper": ^1.0.145
     "@map3xyz/telemetry": ^0.0.10
     "@types/node": ^18.0.0
     "@uniswap/token-lists": ^1.0.0-beta.30
@@ -581,9 +581,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@map3xyz/assets-helper@npm:^1.0.144":
-  version: 1.0.144
-  resolution: "@map3xyz/assets-helper@npm:1.0.144"
+"@map3xyz/assets-helper@npm:^1.0.145":
+  version: 1.0.145
+  resolution: "@map3xyz/assets-helper@npm:1.0.145"
   dependencies:
     "@uniswap/token-lists": ^1.0.0-beta.30
     axios: ^0.27.2
@@ -595,7 +595,7 @@ __metadata:
     uuid: ^8.3.2
   bin:
     assets-helper: dist/index.js
-  checksum: 1573fffd5f5d2663cd630733ea4c09f666861b249b91de087c66fe3c64e273be174287c20eb0a37d1d265cd848ba7c44f37fa75d87abc495f0ba131bce8ae542
+  checksum: 4add0825ef431ead2426e6d16338694149a1f45f6289ea41534a297f090724f7a9fd6f8e815b90c98afdabc20f67f64e94958d561d21457cb52ee2b9d11935cc
   languageName: node
   linkType: hard
 

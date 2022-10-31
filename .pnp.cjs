@@ -33,7 +33,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["@map3xyz/assets-helper", "npm:1.0.144"],\
+            ["@map3xyz/assets-helper", "npm:1.0.145"],\
             ["@map3xyz/telemetry", "npm:0.0.10"],\
             ["@types/node", "npm:18.0.5"],\
             ["@uniswap/token-lists", "npm:1.0.0-beta.30"],\
@@ -659,7 +659,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@map3xyz/assets-cli", "workspace:."],\
-            ["@map3xyz/assets-helper", "npm:1.0.144"],\
+            ["@map3xyz/assets-helper", "npm:1.0.145"],\
             ["@map3xyz/telemetry", "npm:0.0.10"],\
             ["@types/node", "npm:18.0.5"],\
             ["@uniswap/token-lists", "npm:1.0.0-beta.30"],\
@@ -678,10 +678,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@map3xyz/assets-helper", [\
-        ["npm:1.0.144", {\
-          "packageLocation": "./.yarn/cache/@map3xyz-assets-helper-npm-1.0.144-7da726edf1-1573fffd5f.zip/node_modules/@map3xyz/assets-helper/",\
+        ["npm:1.0.145", {\
+          "packageLocation": "./.yarn/cache/@map3xyz-assets-helper-npm-1.0.145-6f8ab487f4-4add0825ef.zip/node_modules/@map3xyz/assets-helper/",\
           "packageDependencies": [\
-            ["@map3xyz/assets-helper", "npm:1.0.144"],\
+            ["@map3xyz/assets-helper", "npm:1.0.145"],\
             ["@uniswap/token-lists", "npm:1.0.0-beta.30"],\
             ["axios", "npm:0.27.2"],\
             ["csv-parse", "npm:5.3.1"],\
