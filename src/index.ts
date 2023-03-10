@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import axios from 'axios';
 import { Command } from 'commander'
-import { pushAssetsRepoModuleChangesAndCreatePullRequests, regenerateTokenlists } from '@map3xyz/assets-helper';
+import { pushAssetsRepoModuleChangesAndCreatePullRequests, regenerateTokenlists, releaseDb } from '@map3xyz/assets-helper';
 import { ingestTokenList } from '@map3xyz/assets-helper';
 import { validate } from '@map3xyz/assets-helper'
 import { track } from '@map3xyz/telemetry'
@@ -46,7 +46,7 @@ program.command('tokenlists')
   .action(options => {
     // default
     if(options.directory === '.') {
-      options.repo = process.cwd();
+      options.directory = process.cwd();
     }
 
     regenerateTokenlists(options.directory).then(result => {
@@ -64,7 +64,7 @@ program.command('commit')
   .action(options => {
     // default
     if(options.directory === '.') {
-      options.repo = process.cwd();
+      options.directory = process.cwd();
     }
 
     pushAssetsRepoModuleChangesAndCreatePullRequests(options.directory).then(result => {
@@ -84,7 +84,7 @@ program.command('ingest')
   .action(options => {
     // defaults 
     if(options.directory === '.') {
-      options.repo = process.cwd();
+      options.directory = process.cwd();
     }
 
      if(options.list === '.') {
@@ -124,6 +124,22 @@ program.command('compile-stats')
     
     console.log('☑️ Compiled stats for assets repo');
     process.exit(0);
+  })
+
+program.command('release')
+  .description('Release a new version of the database and update the algolia index')
+  .option('-d --directory <string>', 'repository directory')
+  .action(async (options) => {
+        if(options.directory === '.') {
+          options.repo = process.cwd();
+      }
+
+      try {
+        await releaseDb(options.directory);
+      } catch (err) {
+        console.error('Error releasing', err);
+        process.exit(1);
+      }
   })
 
 program.parse(process.argv);

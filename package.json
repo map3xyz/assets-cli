@@ -1,6 +1,6 @@
 {
   "name": "@map3xyz/assets-cli",
-  "version": "1.0.9",
+  "version": "1.0.14",
   "description": "CLI for maintaining the assets repo.",
   "author": "pellicceama",
   "keywords": [
@@ -33,7 +33,7 @@
     "typescript": "^4.7.4"
   },
   "dependencies": {
-    "@map3xyz/assets-helper": "^1.0.145",
+    "@map3xyz/assets-helper": "^1.0.187",
     "@map3xyz/telemetry": "^0.0.10",
     "@uniswap/token-lists": "^1.0.0-beta.30",
     "axios": "^0.27.2",
