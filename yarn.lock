@@ -571,9 +571,9 @@
     "@lukeed/csprng" "^1.0.0"
 
 "@map3xyz/assets-helper@^1.0.187":
-  version "1.0.189"
-  resolved "https://registry.yarnpkg.com/@map3xyz/assets-helper/-/assets-helper-1.0.189.tgz#9c2e99ce4daee38dd003f8ea526be8b4f75cc49a"
-  integrity sha512-GF5UneqTztulzgQgBvlaRF3mCEdOYMEb8jTEVMOdHpt/vyQN6Wx+TFOzRcTzFL7y2Z7YvQZDFGdLwgqbSmOykg==
+  version "1.0.190"
+  resolved "https://registry.yarnpkg.com/@map3xyz/assets-helper/-/assets-helper-1.0.190.tgz#76b2b041dcbd942e8e6b38e58317e421ef0e6917"
+  integrity sha512-opnJxADBvJBz2S1Ajjxf9z5owdZCt5zzl2+2ewJb8pfruaVPbu/NRMa4Ak9vh5hr8CasEe9QZ2Omc1o9maQa7A==
   dependencies:
     "@octokit/auth-token" "^3.0.0"
     "@octokit/rest" "^19.0.3"
