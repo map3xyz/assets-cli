@@ -571,9 +571,9 @@
     "@lukeed/csprng" "^1.0.0"
 
 "@map3xyz/assets-helper@^1.0.187":
-  version "1.0.189"
-  resolved "https://registry.yarnpkg.com/@map3xyz/assets-helper/-/assets-helper-1.0.189.tgz#9c2e99ce4daee38dd003f8ea526be8b4f75cc49a"
-  integrity sha512-GF5UneqTztulzgQgBvlaRF3mCEdOYMEb8jTEVMOdHpt/vyQN6Wx+TFOzRcTzFL7y2Z7YvQZDFGdLwgqbSmOykg==
+  version "1.0.191"
+  resolved "https://registry.yarnpkg.com/@map3xyz/assets-helper/-/assets-helper-1.0.191.tgz#385caa5540e65609cb4ef0d872221b8cb7dba32e"
+  integrity sha512-4+THLXxkjYy/AylUX1hpzri26e6uSQSxQAugkSD90OgNEuSuPO/GYZ5Uu8NufJAHC1bWfbNhbJ1x+qJS+8+VRw==
   dependencies:
     "@octokit/auth-token" "^3.0.0"
     "@octokit/rest" "^19.0.3"
@@ -954,7 +954,12 @@
   dependencies:
     moment "*"
 
-"@types/node@*", "@types/node@^18.0.0":
+"@types/node@*":
+  version "18.15.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.15.2.tgz#0407ceb15647f186318101546d5ae40725b73810"
+  integrity sha512-sDPHm2wfx2QhrMDK0pOt2J4KLJMAcerqWNvnED0itPRJWvI+bK+uNHzcH1dFsBlf7G3u8tqXmRF3wkvL9yUwMw==
+
+"@types/node@^18.0.0":
   version "18.15.0"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-18.15.0.tgz#286a65e3fdffd691e170541e6ecb0410b16a38be"
   integrity sha512-z6nr0TTEOBGkzLGmbypWOGnpSpSIBorEhC4L+4HeQ2iezKCi4f77kyslRwvHeNitymGQ+oFyIWGP96l/DPSV9w==
@@ -3517,9 +3522,9 @@ sqlite3@^4.1.1:
     node-pre-gyp "^0.11.0"
 
 sqlite3@^5.0.11:
-  version "5.1.4"
-  resolved "https://registry.yarnpkg.com/sqlite3/-/sqlite3-5.1.4.tgz#35f83d368963168b324ad2f0fffce09f3b8723a7"
-  integrity sha512-i0UlWAzPlzX3B5XP2cYuhWQJsTtlMD6obOa1PgeEQ4DHEXUuyJkgv50I3isqZAP5oFc2T8OFvakmDh2W6I+YpA==
+  version "5.1.5"
+  resolved "https://registry.yarnpkg.com/sqlite3/-/sqlite3-5.1.5.tgz#cf5a753c98914f3aa44b7bd057702fdca6abceb6"
+  integrity sha512-7sP16i4wI+yKnGOO2q2ijze7EjQ9US+Vw7DYYwxfFtqNZDGgBcEw0oeDaDvUTq66uJOzVd/z6MkIg+c9erSJKg==
   dependencies:
     "@mapbox/node-pre-gyp" "^1.0.0"
     node-addon-api "^4.2.0"
