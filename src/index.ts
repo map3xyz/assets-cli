@@ -131,7 +131,7 @@ program.command('release')
   .option('-d --directory <string>', 'repository directory')
   .action(async (options) => {
         if(options.directory === '.') {
-          options.repo = process.cwd();
+          options.directory = process.cwd();
       }
 
       try {
