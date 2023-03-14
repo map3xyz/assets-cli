@@ -570,10 +570,10 @@
   dependencies:
     "@lukeed/csprng" "^1.0.0"
 
-"@map3xyz/assets-helper@^1.0.187":
-  version "1.0.191"
-  resolved "https://registry.yarnpkg.com/@map3xyz/assets-helper/-/assets-helper-1.0.191.tgz#385caa5540e65609cb4ef0d872221b8cb7dba32e"
-  integrity sha512-4+THLXxkjYy/AylUX1hpzri26e6uSQSxQAugkSD90OgNEuSuPO/GYZ5Uu8NufJAHC1bWfbNhbJ1x+qJS+8+VRw==
+"@map3xyz/assets-helper@^1.0.192":
+  version "1.0.192"
+  resolved "https://registry.npmjs.org/@map3xyz/assets-helper/-/assets-helper-1.0.192.tgz#e97be73a331317c445f48ce24b679e811589128a"
+  integrity sha512-v/6YKgIT2GcVrO2cce/4ERkF6D0FC9GDipJRnTEXIGS+32ucI+RMxY7D/mYjOYzPaM63NbRL9IRc74EmyKppcg==
   dependencies:
     "@octokit/auth-token" "^3.0.0"
     "@octokit/rest" "^19.0.3"
